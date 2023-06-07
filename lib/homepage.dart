@@ -88,7 +88,7 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  const Text('Contact Us',
+                  const Text('Send Info',
                       style:
                           TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                   TextFormField(
@@ -128,7 +128,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     height: 45,
                     width: 110,
                     child: isLoading
-                        ? Center(child: const CircularProgressIndicator())
+                        ? const Center(child: CircularProgressIndicator())
                         : TextButton(
                             style: TextButton.styleFrom(
                                 foregroundColor: Colors.white,
